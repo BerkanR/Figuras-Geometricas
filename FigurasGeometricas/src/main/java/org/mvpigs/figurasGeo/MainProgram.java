@@ -18,12 +18,17 @@ public class MainProgram {
         Cuadrado cuadradoS = new Cuadrado(10);
         Cuadrado cuadradoL = new Cuadrado("cuadrado", 10);
 
+        Elipse elipseS = new Elipse(11, 12);
+        Elipse elipseL = new Elipse("elipse", 11, 12);
+
         figuras.add(circuloS);
         figuras.add(circuloL);
         figuras.add(rectanguloS);
         figuras.add(rectanguloL);
         figuras.add(cuadradoS);
         figuras.add(cuadradoL);
+        figuras.add(elipseS);
+        figuras.add(elipseL);
 
         for (SuperFiguras figura : figuras) {
             System.out.println("Area del " + figura.getNombre() + " = " + figura.area());

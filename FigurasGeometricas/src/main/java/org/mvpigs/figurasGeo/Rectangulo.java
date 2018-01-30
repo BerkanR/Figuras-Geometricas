@@ -24,21 +24,21 @@ public class Rectangulo extends SuperFiguras {
 
     /* Getters y Setters */
 
-    public double getAltura() {
-        return altura;
-    }
+	public double getAltura() {
+		return altura;
+	}
 
-    public void setAltura(double altura, double anchura) {
-        this.altura = altura;
-    }
+	public void setAltura(double altura) {
+		this.altura = altura;
+	}
 
-    public double getAnchura() {
-        return anchura;
-    }
+	public double getAnchura() {
+		return anchura;
+	}
 
-    public void setAnchura(double anchura) {
-        this.anchura = anchura;
-    }
+	public void setAnchura(double anchura) {
+		this.anchura = anchura;
+	}
 
     /* Método para calcular el área de un rectángulo */
 

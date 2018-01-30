@@ -9,15 +9,10 @@ public class RectanguloTest {
     /* Testeando constructores */
 
     @Test
-    public void testLado() {
+    public void testLadoAnchura() {
         Rectangulo rectangulo = new Rectangulo(3, 5);
         assertEquals(3.0, rectangulo.getAltura(), 0);
-    }
-
-    @Test
-    public void testAnchura() {
-        Rectangulo rectangulo = new Rectangulo(3, 5);
-        assertEquals(5.0, rectangulo.getAnchura(), 0);
+        assertEquals(5.0, rectangulo.getAnchura(), 0 );
     }
 
     @Test
