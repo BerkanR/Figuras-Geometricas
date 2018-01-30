@@ -20,6 +20,13 @@ public class RectanguloTest {
         assertEquals(5.0, rectangulo.getAnchura(), 0);
     }
 
+    @Test
+    public void testNombre() {
+        Rectangulo rectangulo = new Rectangulo("rectángulo", 6, 7);
+        assertEquals("rectángulo", rectangulo.getNombre());
+        assertEquals(42.0, rectangulo.area(), 0);
+    }
+
     /* Testeando métodos */
 
     @Test

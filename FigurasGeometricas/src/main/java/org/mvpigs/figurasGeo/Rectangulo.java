@@ -1,16 +1,23 @@
 package org.mvpigs.figurasGeo;
 
-public class Rectangulo {
+public class Rectangulo extends SuperFiguras {
     private double altura = 0d;
     private double anchura = 0d; //base
 
     /* Constructores */
 
     public Rectangulo() {
-
+        super();
     }
 
     public Rectangulo(double altura, double anchura) {
+        super();
+        this.altura = altura;
+        this.anchura = anchura;
+    }
+
+    public Rectangulo(String nombre, double altura, double anchura) {
+        super(nombre);
         this.altura = altura;
         this.anchura = anchura;
     }
