@@ -22,7 +22,7 @@ public class ElipseTest {
         assertEquals(1.0, elipse.getSemiejem(), 0);
     }
 
-    /* Testeando método */
+    /* Testeando métodos */
 
     @Test
     public void testArea() {

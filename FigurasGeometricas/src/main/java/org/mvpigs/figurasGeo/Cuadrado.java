@@ -29,7 +29,7 @@ public class Cuadrado extends SuperFiguras {
         this.lado = lado;
     }
 
-    /* Método del área del cuadrado */
+    /* Método para calcular el área del cuadrado */
 
     public double area() {
         return getLado() * getLado();

@@ -1,7 +1,7 @@
 package org.mvpigs.figurasGeo;
 
-import static org.junit.Assert.assertEquals;
 import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 public class CuadradoTest {
 
@@ -20,7 +20,7 @@ public class CuadradoTest {
         assertEquals(5.0, cuadrado.getLado(), 0);
     }
 
-    /* Testeando método */
+    /* Testeando métodos */
 
     @Test
     public void testArea() {

@@ -40,7 +40,7 @@ public class Rectangulo extends SuperFiguras {
 		this.anchura = anchura;
 	}
 
-    /* Método para calcular el área de un rectángulo */
+    /* Método para calcular el área del rectángulo */
 
     public double area() {
         return getAnchura() * getAltura();

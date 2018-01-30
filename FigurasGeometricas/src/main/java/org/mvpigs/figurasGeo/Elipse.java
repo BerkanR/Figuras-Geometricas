@@ -41,7 +41,7 @@ public class Elipse extends SuperFiguras {
         this.semiejem = semiejem;
     }
 
-    /* Método para el área de la elipse */
+    /* Método para calcular el área de la elipse */
 
     public double area() {
         return pi * getSemiejeM() * getSemiejem();

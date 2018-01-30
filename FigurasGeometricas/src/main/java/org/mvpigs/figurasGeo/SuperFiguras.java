@@ -28,4 +28,4 @@ public abstract class SuperFiguras {
     /* Método abstracto de area() */
 
     public abstract double area();
- }
+}

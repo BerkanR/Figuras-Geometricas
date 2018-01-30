@@ -26,7 +26,7 @@ public class Circulo extends SuperFiguras {
         return radio;
     }
 
-    /* Métodos para calcular el área de un círculo */
+    /* Método para calcular el área del círculo */
 
     public double area() {
         return pi * Math.pow(getRadio(), 2);
