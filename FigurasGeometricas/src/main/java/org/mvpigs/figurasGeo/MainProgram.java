@@ -15,10 +15,15 @@ public class MainProgram {
         Rectangulo rectanguloS = new Rectangulo(3, 6);
         Rectangulo rectanguloL = new Rectangulo("rectángulo", 3, 6);
 
+        Cuadrado cuadradoS = new Cuadrado(10);
+        Cuadrado cuadradoL = new Cuadrado("cuadrado", 10);
+
         figuras.add(circuloS);
         figuras.add(circuloL);
         figuras.add(rectanguloS);
         figuras.add(rectanguloL);
+        figuras.add(cuadradoS);
+        figuras.add(cuadradoL);
 
         for (SuperFiguras figura : figuras) {
             System.out.println("Area del " + figura.getNombre() + " = " + figura.area());
